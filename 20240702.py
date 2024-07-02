@@ -5,7 +5,6 @@ test_list = ['one', 'two', 'three']
 for i in test_list:
     print(i)
 
-# hello
 a = [(1,2),(3,4),(5,6)]
 for (first, last) in a:
     print(first + last)
@@ -113,4 +112,7 @@ print(result)
 #1번
 a = "Life is too short, you need python"
 if "wife" in a : print("wife")
-elif "python"
+elif "python" in a and "you" not in a: print("python")
+elif "shirt" not in a: print("shirt")
+elif "need" in a: print("need")
+else: print("none")
